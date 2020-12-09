@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <title>PayPal Standard</title>
+</head>
+<body>
+    <header>
+        <h1>WDV351: Web Application Components</h1>
+        <h2>PayPal Standerd</h2>
+        <p>* this is a student project *</p>
+        <h3>Picture Shown: Valkenburg, Netherlands</h3>
+
+        <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" >
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+            <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_viewcart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>         
+    </header>
+
+    <div class="row">
+        <div class="column1">
+            <img src="images/image.jpg"/> 
+            <img src="images/image.jpg"/> 
+        </div>
+
+        
+        <div class="column2">
+                
+            <!-- buy now $5 button-->
+            <div class="ppButton">
+                <p>Buy Digital Copy: $5 Plus Special Insctructions.</p>
+                <p>* fixed cost and information, no shipping fee. NEW: Confirm and Cancel Message*</p>
+
+                <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="9FTAXPM6U3H3N">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="black and white or color">black and white or color</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
+                    </table>
+                    <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>                    
+                    
+                <p>Add to Cart:</p>
+                <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="UEDR6R8ZVRJN4">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Black and White or Color">Black and White or Color</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
+                    </table>
+                    <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>  
+                      
+            </div>
+
+            <!-- Buy now $10 button plus sales tax-->
+            <div class="ppButton">
+                <p>Buy Small Print: $10</p>
+                <p>* Buy now with tax rate and shipping fee *</p>
+                <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="MBME9K76YNU9J">
+                    <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>  
+                
+                <p>Add to Cart:</p>
+                <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="LJP7NWNRDRJ7U">
+                    <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+                    
+            </div>
+
+             <!-- Buy now $15 button plus shipping fee-->
+             <div class="ppButton">
+                <p>Buy Large Print: $15 plus S&H</p>
+                <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="XRVZJZJAF4Z6C">
+                    <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                    
+                    <p>Add to Cart:</p>
+                    <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="5F2UGFDWXY95L">
+                        <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+            </div>
+
+            <!-- Buy now with 3 options-->
+            <div class="ppButton">
+                <p>Buy Extra Large Print: Choose your option</p>
+                <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="KGX4TD5XKPHK4">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                        <option value="Matte">Matte $30.00 USD</option>
+                        <option value="Glossy">Glossy $30.00 USD</option>
+                        <option value="Mixed">Mixed $30.00 USD</option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="hidden" name="currency_code" value="USD">
+                    <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form> 
+                    
+                    <p>Add to Cart:</p>
+                    <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="XK4CWYAFSX2WL">
+                        <table>
+                        <tr><td><input type="hidden" name="on0" value="Sizes">Sizes</td></tr><tr><td><select name="os0">
+                            <option value="Matte">Matte $30.00 USD</option>
+                            <option value="Glossy">Glossy $30.00 USD</option>
+                            <option value="Mixed">Mixed $30.00 USD</option>
+                        </select> </td></tr>
+                        </table>
+                        <input type="hidden" name="currency_code" value="USD">
+                        <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+            </div>
+
+            <!-- Buy frame now button with multiple options-->
+            <div class="ppButton">
+                <p>Buy Frame</p>
+                <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="GSX3QMF5Q7EBJ">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Colors">Colors</td></tr><tr><td><select name="os0">
+                        <option value="Black">Black </option>
+                        <option value="White">White </option>
+                        <option value="Red">Red </option>
+                        <option value="Maroon">Maroon </option>
+                        <option value="Orange">Orange </option>
+                        <option value="Blue">Blue </option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+
+                    <p>Add to Cart:</p>
+                    <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="92KQ9GSL6523L">
+                        <table>
+                        <tr><td><input type="hidden" name="on0" value="Colors">Colors</td></tr><tr><td><select name="os0">
+                            <option value="Black">Black </option>
+                            <option value="White">White </option>
+                            <option value="Red">Red </option>
+                            <option value="Maroon">Maroon </option>
+                            <option value="Orange">Orange </option>
+                            <option value="Blue">Blue </option>
+                        </select> </td></tr>
+                        </table>
+                        <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                        
+                                              
+            </div>
+                    
+                
+        </div>
+
+    </div>
+
+    <h2>Subscribe Here!</h2>
+    <div class="subs">
+        <div class="ppButton">
+            <center>
+            <h3>Monthly Subscription: $10 USD</h3>
+                <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="ETTFVKYSE4CQU">
+                    <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+            </center>    
+        </div>
+
+        <div class="ppButton">
+            <center>
+            <h3>3 Month Subscriptions: $20 USD</h3>
+                <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="FZMNGN3NGKPT2">
+                    <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>  
+            </center>                    
+        </div>
+    </div>
+    
+</body>
+</html>
